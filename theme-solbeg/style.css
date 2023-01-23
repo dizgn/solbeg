@@ -1,0 +1,176 @@
+/*
+Theme Name: Demo Solbeg_
+Version: Beta 1.0
+Author: Dmitry Borovitsky
+E-mail: d.borovitsky@gmail.com
+Phone: +48506710476
+Location: Wroclaw, Poland
+*/
+
+
+* {margin:0; padding:0;}
+* {-webkit-tap-highlight-color: transparent; outline:none;}
+
+html, body {
+	margin:0;
+	padding:0;
+	font-family:Arial;
+	font-size:18px;
+	scroll-behavior:smooth;
+	min-width:400px;
+}
+
+img {
+	padding:0;
+	margin:0;
+	line-height:0;
+	max-width:100%;
+	height:auto;
+}
+
+a {
+	text-decoration:none;
+	color:#E84419;
+}
+
+a:hover {
+	opacity:0.8;
+}
+
+ul {
+	list-style-type: none;
+}
+
+li a {
+    background-color: #E84419;
+    color: white;
+    padding: 7px 10px;
+    text-decoration: none;
+    display: inline-block;
+	margin:4px 0;
+	min-width:230px;
+	border-radius:1px;
+	font-size:0.9em;	
+}
+
+.location {
+    color:#444444;
+    font-size:0.8em;
+    margin-bottom:5px;
+}
+
+.pagination a {
+    padding:10px;
+    text-transform:uppercase;
+    font-size:0.9em;
+}
+
+.post-category {
+    margin:0 5px 10px 5px;
+    display: inline-block;
+    background-color: #eeeeee;
+    padding: 5px 10px;
+    color: #444444;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    border-radius: 100px;
+}
+
+#footer {
+	background-color:#222222;
+	color:#ffffff;
+	text-align:left;
+	padding:2em;
+	font-weight:200;
+	font-size:0.8em;
+}
+
+.logo img {
+	width: 300px;
+	margin: 2em auto;
+}
+
+.paddingleft {padding-left:3vw;}
+.paddingright {padding-right:3vw;}
+
+
+.flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.flexpost {
+    width: calc(100% / 3);
+    margin-bottom: 2em;
+}
+
+.post_date {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px;
+}
+
+.imgzoom {
+    overflow: hidden;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+}
+
+.imgzoom img {
+    width: 100%;
+    transition: all 0.3s ease-in-out;
+}
+
+.imgzoom:hover img {
+    transform: scale(1.1);
+}
+
+.img_rounded {
+    border-radius: 10px;
+    max-width: 300px;
+    max-height: 200px;
+}
+
+.wrap {
+    clear:both;
+	height:2em;
+}
+
+.news_title {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.mediumtext {
+    font-weight: 600;
+}
+
+.post_description {
+    font-size: 14px;
+    color: #999;
+    margin: 0 10px;
+}
+
+.button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 25px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #555;
+    color: #fff;
+}
+
+
+/* MOB */
+@media screen and (max-width: 950px) {
+.flexpost {
+	width:100%;
+}
+}
